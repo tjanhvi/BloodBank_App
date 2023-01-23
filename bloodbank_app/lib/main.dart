@@ -1,9 +1,9 @@
-// import 'package:bloodbank_app/screens/otp_pin.dart';
-// import 'package:bloodbank_app/screens/screen1.dart';
-// import 'package:bloodbank_app/screens/screen2.dart';
-// import 'package:bloodbank_app/screens/screen3.dart';
-// import 'package:bloodbank_app/screens/screensplash.dart';
-// import 'package:bloodbank_app/screens/mobile_number.dart';
+import 'package:bloodbank_app/screens/otp_pin.dart';
+import 'package:bloodbank_app/screens/screen1.dart';
+import 'package:bloodbank_app/screens/screen2.dart';
+import 'package:bloodbank_app/screens/screen3.dart';
+import 'package:bloodbank_app/screens/screensplash.dart';
+import 'package:bloodbank_app/screens/mobile_number.dart';
 import 'package:bloodbank_app/screens/signup.dart';
 import 'package:flutter/material.dart';
 
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: Signup(),
+      home: SplashScreen(),
     );
   }
 }

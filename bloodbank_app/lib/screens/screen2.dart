@@ -23,7 +23,7 @@ class _Screen2State extends State<Screen2> {
             mainAxisAlignment: MainAxisAlignment.center,            
             children: [              
               Image.asset(
-                'assets/Images/s2img.png',
+                'assets/images/s2img.png',
                 width: 300.0, 
                 height: 300.0
               ),

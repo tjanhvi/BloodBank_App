@@ -23,7 +23,7 @@ class _Screen3State extends State<Screen3> {
             mainAxisAlignment: MainAxisAlignment.center,            
             children: [              
               Image.asset(
-                'assets/Images/s1img.png',
+                'assets/images/s3img.png',
                 width: 300.0, 
                 height: 300.0
               ),
@@ -33,7 +33,7 @@ class _Screen3State extends State<Screen3> {
               Container(
                 padding: EdgeInsets.all(12.0),
                 child: Text(
-                  "To be a responsilbe donor, you must get a check-up.",
+                  "Donate your blood and save a life.",
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 18,
