@@ -2,7 +2,7 @@
 
 import 'dart:async';
 import 'package:bloodbank_app/main.dart';
-import 'package:bloodbank_app/screens/signup.dart';
+import 'package:bloodbank_app/screens/mobile_number.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -22,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => Signup(),
+          builder: (context) => MobileNumber(),
         )      
       )
     );  

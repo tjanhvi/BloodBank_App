@@ -24,11 +24,11 @@ class _Screen3State extends State<Screen3> {
             children: [              
               Image.asset(
                 'assets/images/s3img.png',
-                width: 300.0, 
-                height: 300.0
+                width: 250.0, 
+                height: 250.0
               ),
 
-              SizedBox(height: 10.0),
+              SizedBox(height: 40.0),
 
               Container(
                 padding: EdgeInsets.all(12.0),
